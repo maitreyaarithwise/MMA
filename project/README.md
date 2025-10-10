@@ -55,3 +55,14 @@ ProphetX → "NFL: DAL vs SF, Handicap 3.5"
     "SF": +112
   }
 }
+
+##### Pinnacle Feed Terminologies
+Term---Simple Meaning---Example
+Periods---Match parts---1st, 2nd, 3rd, 4th Quarter
+Pre-match---Before game bet---Bet before kick off
+Live---During game bets---Bet during 2nd quarter
+Leagues---Competitions---NFL, NBA
+Markets---Bet types---Winner, Spread, Over/Under
+Special Markets---Rare bets---First to score
+Archive Events---Old finished games---Super Bowl 2024
+Event Details---Info about one game---Teams, odds, results

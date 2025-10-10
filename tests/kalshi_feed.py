@@ -71,28 +71,6 @@ def get_milestones():
     data = response.json()
     save_to_excel(data, "Milestones")
 
-# def get_forecast_history():
-#     ticker = 'KXNBASEATTLE-30'
-#     URL = f"https://api.elections.kalshi.com/trade-api/v2/cached/events/{ticker}/forecast_history"
-#     response = requests.get(URL)
-#     try:
-#         data = response.json()
-#         save_to_excel(data, "Event Forcast History")
-#     except json.JSONDecodeError as e:
-#         print("⚠️ JSON decode error:", e)
-#         print("Status Code:", response.status_code)
-#         print("Content-Type:", response.headers.get("Content-Type"))
-#         print("Raw Response (first 500 chars):")
-#         print(response.text[:500])   # show first 500 characters
-#         return None
-
-# def get_event_candlesticks():
-#     ticker = 'KXNBASEATTLE-30'
-#     URL = f"https://api.elections.kalshi.com/trade-api/v2/events/{ticker}/candlesticks"
-#     response = requests.get(URL)
-#     data = response.json()
-#     save_to_excel(data, "Event Candlesticks")
-
 if __name__ == "__main__":
     # Create empty Excel before appending
     with pd.ExcelWriter(OUTPUT_FILE, mode="w", engine="openpyxl") as writer:
